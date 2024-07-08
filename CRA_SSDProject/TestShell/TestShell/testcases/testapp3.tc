@@ -1,0 +1,14 @@
+{
+	"ID": "TestApp3",
+	"STEPS":[
+		"write 0 0xAAAABBBB",
+		"write 1 0xAAAABBBB",
+		"erase 0 1",
+		"read 0",
+		"read 1"
+	],	
+	"EXPECTED": [
+		"testapp3_1.expected",
+		"testapp3_2.expected"
+	]
+}

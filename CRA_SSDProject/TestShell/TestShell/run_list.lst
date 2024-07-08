@@ -1,0 +1,5 @@
+read 3
+write 3 0x12345678
+read 3
+write 2 0x00000000
+write 2 0x00

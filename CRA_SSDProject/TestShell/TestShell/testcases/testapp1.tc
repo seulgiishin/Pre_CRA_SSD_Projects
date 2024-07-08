@@ -1,0 +1,10 @@
+{
+	"ID": "TestApp1",
+	"STEPS":[
+		"fullwrite 0xAABBCCDD",
+		"fullread"
+	],	
+	"EXPECTED": [
+		"testapp1.expected"
+	]
+}
